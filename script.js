@@ -2,26 +2,26 @@ let current="a";
 let previous;
 $("#1_b").css({
 	"opacity":"1",
-	"left":"357px"
+	"left":"357px",
 });
 
 function rotateR(cur,prev){
 	switch(prev){
 		case 'a':	
 			$('#1_b').css({
-				"left":"-300px",
+				"left":"0px",
 				"opacity":"0"
 			});
 			break;
 		case "b":
 			$('#2_b').css({
-				"left":"-300px",
+				"left":"0px",
 				"opacity":"0"
 			});
 			break;
 		case "c":
 			$('#3_b').css({
-				"left":"-300px",
+				"left":"0px",
 				"opacity":"0"
 			});
 			break;
@@ -30,8 +30,7 @@ function rotateR(cur,prev){
 		case 'b' :
 			$('#2_b').css({
 				"opacity":"1",
-				"left":"357px",
-				"right":"0px"
+				"left":"357px"
 			});
 			break;
 		case 'c':
@@ -44,8 +43,7 @@ function rotateR(cur,prev){
 		case 'd':
 			$('#4_b').css({
 				"opacity":"1",
-				"left":"357px",
-				"right":"0px"
+				"left":"357px"
 			});
 				break;
 			   }
@@ -55,19 +53,19 @@ function rotateL(cur,prev){
 		case 'b':	
 			$('#2_b').css({
 				"opacity":"0",
-				"right":"-300px"
+				"right":"0px"
 			});
 			break;
 		case "c":
 			$('#3_b').css({
 				"opacity":"0",
-				"right":"-300px"
+				"right":"0px"
 			});
 			break;
 		case "d":
 			$('#4_b').css({
 				"opacity":"0",
-				"right":"-300px"
+				"right":"0px"
 			});
 			break;
 	}
@@ -75,22 +73,19 @@ function rotateL(cur,prev){
 		case 'a' :
 			$('#1_b').css({
 				"opacity":"1",
-				"right":"0px",
 				"left":"357px"
 			});
 			break;
 		case 'b':
 			$('#2_b').css({
 				"opacity":"1",
-				"right":"0px",
-				"left":"357px"
+				"left":"357px",
 			});
 			break;
 		case 'c':
 			$('#3_b').css({
 				"opacity":"1",
-				"right":"0px",
-				"left":"357px"
+				"left":"357px",	
 			});
 				break;
 			   }

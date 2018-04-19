@@ -153,8 +153,6 @@ main article h3 {
 main article .article_title {
   border: 10px solid;
   -moz-border-image: url(img/forh1.png) 0 0 10 0;
-  -webkit-border-image: url(img/forh1.png) 0 0 10 0;
-  -o-border-image: url(img/forh1.png) 0 0 10 0;
 }
 main article .item {
   padding-left: 367px;
@@ -269,11 +267,12 @@ main .slider {
 main .slider .block {
   position: absolute;
   top: 167px;
-  right: -300px;
+  right: 0px;
   opacity: 0;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s linear;
   -o-transition: all 1s ease;
+  overflow: hidden;
 }
 main .slider .block .house {
   display: inline-block;
