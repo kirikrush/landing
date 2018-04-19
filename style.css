@@ -153,6 +153,8 @@ main article h3 {
 main article .article_title {
   border: 10px solid;
   -moz-border-image: url(img/forh1.png) 0 0 10 0;
+  -webkit-border-image: url(img/forh1.png) 0 0 10 0;
+  -o-border-image: url(img/forh1.png) 0 0 10 0;
 }
 main article .item {
   padding-left: 367px;
